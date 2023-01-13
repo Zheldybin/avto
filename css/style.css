@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    padding: 20px 53px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+/* Шапка */
+
+.header {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    padding: 25px 0 25px 0;
+}
+
+.header-menu {
+    margin-left: 129px;
+}
+
+.header-menu a {
+    margin-left: 115px;
+}
+
+.header-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Слайдер */
+
+.slider {
+    background-image: url(/images/slider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.slider-item {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.slider-item h1 {
+    padding-top: 105px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+}
+
+.slider-item p {
+    margin-top: 40px;
+    max-width: 502px;
+}
+
+.button-slider {
+    margin-top: 40px;
+    margin-bottom: 154px;
+}
+
+/* Каталог */
+
+main h2 {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    margin-top: 40px;
+}
+
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.catalog-container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 15px;
+    margin-top: 17px;
+}
+
+.catalog-container__option {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.catalog__name {
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.button-catalog {
+    margin-top: 15px;
+}
+
+.name-option {
+    margin-top: 11px;
+}
+
+.option {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+/* Форма */
+
+.form-container {
+    position: relative;
+}
+
+.form-container img {
+    position: absolute;
+    right: -200px;
+    top: 50px;
+}
+
+.form-container p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.form-booking {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-booking input {
+    padding: 18px;
+    max-width: 344px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #5D5D5F;
+}
+
+.button-form {
+    margin-top: 15px;
+    max-width: 384px;   
+    margin-bottom: 121px; 
+}
+
+/* Подвал */
+
+footer {
+    border-top: 1px solid #E5E5E5;
+
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    padding: 36px;
+}
